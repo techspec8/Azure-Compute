@@ -7,7 +7,7 @@ This tutorial outlines the steps to creating virtual machines and connecting the
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Cloud Computing in Azure  
 - Remote Desktop
 - Wireshark
 - Powershell
