@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/tUjfXAc.png alt="Microsoft Azure Logo"/>
 </p>
 
-<h1>Creating a Resource Group and Virtual Machines in Azure</h1>
+<h1>Creating Resource Groups and Virtual Machines in Azure</h1>
 This tutorial outlines the steps to creating virtual machines and connecting them to the same network security group in Azure.<br />
 
 <h2>Environments and Technologies Used</h2>
@@ -60,7 +60,7 @@ This tutorial outlines the steps to creating virtual machines and connecting the
 <img src= https://i.imgur.com/8ofVEv2.png
 </p>
 
-<p>If you click back into your resource group, sort by type, you will now see both virtual machines and one virtual network. Next we will connect our virtual machines remotely. </p>
+<p>If you click back into your resource group, sort by type, you will now see both virtual machines and one virtual network. Next we observe various network traffic to and from VM1 and VM2 with Wireshark as well as experiment with Network Security Groups.</p>
 <p>
 <img src= https://i.imgur.com/dLkMeG9.png
 </p>
