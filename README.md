@@ -9,8 +9,6 @@ This tutorial outlines the steps to creating virtual machines and connecting the
 
 - Cloud Computing in Azure  
 - Remote Desktop
-- Wireshark
-- Powershell
 
 <h2>Operating Systems Used </h2>
 
