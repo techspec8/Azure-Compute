@@ -2,8 +2,8 @@
 <img src="https://i.imgur.com/tUjfXAc.png alt="Microsoft Azure Logo"/>
 </p>
 
-<h1>Creating Network Security Groups in the Cloud (Azure)</h1>
-This tutorial outlines the steps to creating network security groups on virtual machines in Azure.<br />
+<h1>Creating Network Security Groups on the Cloud (Azure)</h1>
+This tutorial outlines the steps to creating virtual machines and connecting them to the same network security group in Azure.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -42,10 +42,9 @@ This tutorial outlines the steps to creating network security groups on virtual 
 
 <br />
 
-<p> Next create your virtual machines and connect them to the resource group you just created. You will name each virtual machine (e.g. VM1 or VM2). Make sure to use the same region that your resource group was created in. Next, choose an operatng system for your VM (e.g. Windows 10/Ubuntu). Create a user name/password, then check the 'Licensing' box. Click next until you get to 'Networking'. Here, you will be creating a Virtual Network, Subnet, Public IP address and yake note that you are using RDP Port 3389, click 'Review + Create'. If validation passes, click 'Create'. Wait for the message 'Your deployment is complete' and then refresh your page. If you go back and click on the 'Resouorce Group', you will now see your VM1.  
-<p>
-<p>Repeat these steps to create VM2 except, choose the operating system Ubuntu. In 'Networking', <b>connect to VM1's virtual network</b> by choosing VM1-vnet from the drop-down, your 'Subnet' will be the same as your VM1 and a new 'Public IP' will be assigned for VM2. Notice that you are now connected to SSH Port 22.  
+<p> Next create your virtual machines and connect them to the resource group that you just created. You will name each virtual machine (e.g. VM1 or VM2). Make sure to use the same region that your resource group was created in. Next, choose an operatng system for your VM (e.g. Windows 10/Ubuntu). Create a user name/password, then check the 'Licensing' box. Click next until you get to 'Networking'. Here, you will be creating a Virtual Network, Subnet, Public IP address and yake note that you are using RDP Port 3389, click 'Review + Create'. If validation passes, click 'Create'. Wait for the message 'Your deployment is complete' and then refresh your page. If you go back and click on the 'Resouorce Group', you will now see your VM1.  
 </p>
+
 <p>
 <img src= https://i.imgur.com/wwS8T8i.png
 </p>
@@ -54,10 +53,18 @@ This tutorial outlines the steps to creating network security groups on virtual 
 <img src= https://i.imgur.com/zFOyfJn.png
 </p>
   
+<p>Repeat the same steps to create VM2 except, choose the Linux (Ubuntu) operating system. Once you're in 'Networking', <b>connect to VM1's virtual network</b> by choosing VM1-vnet from the drop-down, your 'Subnet' will be the same as your VM1 and a new 'Public IP' will be assigned for VM2. Notice that you are now using inbound SSH Port 22.  
+</p> 
+
 <p>
 <img src= https://i.imgur.com/8ofVEv2.png
 </p>
+  
 <br />
+
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
