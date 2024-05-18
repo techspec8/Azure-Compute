@@ -59,7 +59,7 @@
 <img src= https://i.imgur.com/8ofVEv2.png
 </p>
 
-<b>Back in Resource Group, sort by type, you will now see both virtual machines using one virtual network/subnet. Next we observe various network traffic to and from VM1 and VM2 with Wireshark and experiment with Network Security Groups.</b>
+<b>Back in Resource Group, sort by type, you will now see both virtual machines using one virtual network/subnet. Observe various network traffic between Virtual Machines with Wireshark and experiment with Network Security Groups here -> [Configuring On-premises Active Directory within Azure VMs](https://github.com/techspec8/Active-Directory).</b>
 <p>
 <img src= https://i.imgur.com/dLkMeG9.png
 </p>
