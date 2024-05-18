@@ -18,16 +18,14 @@
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
+- Create Resource Group 
+- Configure Windows 10 Virtual Machine with Vnet and Subnet
+- Configure Linux Virtual Machine and connect to VM1 Vnet
+<br />
 <p>
 <img src= https://i.imgur.com/4XCsQoC.png
 </p>
-  
-- Create Resource Group 
-- Create Windows 10 Virtual Machine with Vnet and Subnet
-- Create Linux Virtual Machine and connect to VM1 Vnet
-- Install Wireshark in Windows VM
-- Observe Traffic (ICMP, SSH, DHCP, DNS, RDP)
-- Observe Commands Between Powershell and Wireshark
+<br/>
 
 <h2>Deployment and Configuration Steps</h2>
 
