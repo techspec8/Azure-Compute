@@ -30,7 +30,7 @@
 
 <h2>Deployment and Configuration Steps</h2>
 
-<b> Begin by naming your resource group (e.g., RG-Lab2). Choose a region (e.g., EAST US 2). Click 'Review and Create' observe validation, then click 'Create'.   
+<b> Begin by naming your Resource Group RG-Lab2. Choose a region such as EAST US 2. Then, click 'Review and Create' to observe validation, then 'Create' to complete.   
 </b>
 <p>
 <img src= https://i.imgur.com/fX1aTAX.png 
@@ -40,7 +40,7 @@
 
 <br />
 
-<b> Next, connect your virtual machines to the resource group you just created. You will name each virtual machine (e.g. VM1 or VM2). Make sure to use the same region that your resource group was created in. Next, choose an operating system for your VM (e.g. Windows 10/Ubuntu). Create a username/password, then check the 'Licensing' box. Click next until you get to 'Networking'. Here, you will be creating a Virtual Network, Subnet, and Public IP address, and notice that you are using inbound RDP Port 3389. Click 'Review + Create'. If validation passes, click 'Create'. Wait for the message 'Your deployment is complete' and refresh your page. If you go back and click on the 'Resource Group', you will now see your VM1 and the services you created.  
+<b> Next, connect your Virtual Machines to the Resource Group you created. You will name each Virtual Machine VM1 or VM2. Make sure to use the same region that your Resource Group was created in. Next, choose an operating system for your VM (e.g. Windows 10/LinuxUbuntu). Create a username/password, then check the 'Licensing' box. Click next until you get to 'Networking'. Here, you will create a Virtual Network, Subnet, and Public IP address, and notice that you are using inbound RDP Port 3389. Click 'Review + Create'. If validation passes, click 'Create'. Wait for the message 'Your deployment is complete' and refresh your page. If you go back and click on the 'Resource Group', you will now see your VM1 and the services you created.  
 </b>
 
 <p>
@@ -58,9 +58,16 @@
 <img src= https://i.imgur.com/8ofVEv2.png
 </p>
 
-<b>Back in Resource Group, sort by type, and observe that both virtual machines are on one virtual network/subnet. Observe various network traffic between Virtual Machines with Wireshark and experiment with Network Security Groups here -> [Network Security Groups (NSGs) and Inspecting Network Protocols](https://github.com/techspec8/Network-and-Protocols/tree/main).</b>
+<b>Back in Resource Group, sort by type, and observe that both Virtual Machines are on one virtual network/subnet.</b>
 <p>
 <img src= https://i.imgur.com/dLkMeG9.png
 </p>
   
 <br />
+
+<b>Next, copy the Virtual Machine's Public IP address and access Remote Desktop from your start menu. Then, connect using the Username and Password you created in each Virtual Machine. If using a Mac OS, download the Microsoft Remote Desktop application (shown below) from the Apple Store to complete this lab.  </b>
+<p><img src= https://i.imgur.com/yGH8lCB.png <p/>
+
+<p><img src= https://i.imgur.com/QJJeNC4.png </p> <img src= https://i.imgur.com/vAbHgfC.png</p>  
+<br/>
+<b>You are now ready to observe network traffic between Virtual Machines using Wireshark and experiment with Network Security Groups here -> [Network Security Groups (NSGs) and Inspecting Network Protocols](https://github.com/techspec8/Network-and-Protocols/tree/main).</b>
