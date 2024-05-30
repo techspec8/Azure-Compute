@@ -70,4 +70,4 @@
 
 <p><img src= https://i.imgur.com/QJJeNC4.png </p> <img src= https://i.imgur.com/vAbHgfC.png</p>  
 <br/>
-<b>You are now ready to observe network traffic between Virtual Machines using Wireshark and experiment with Network Security Groups here -> [Network Security Groups (NSGs) and Inspecting Network Protocols](https://github.com/techspec8/Network-and-Protocols/tree/main).</b>
+<b>You are now ready to observe network traffic between Virtual Machines using Wireshark and experiment with Network Security Groups and Inspecting Network Protocols here ->(https://github.com/techspec8/Network-and-Protocols/tree/main)</b>
